@@ -3,7 +3,6 @@ import glob
 import openbabel
 import pybel
 
-
 def get_max_nAtom(atomNumber):
     nAtoms = []
     fin = glob.glob("*.xyz")
